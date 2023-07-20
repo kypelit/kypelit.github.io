@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/layout.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #fff2cc;
+            margin: 10; /* 清除页面默认的边距 */
+            padding: 0; /* 清除页面默认的内边距 */
+        }        
+        .sidebar {
+         width: 200px;
+        background-color: #f2f2f2;
+        }   
+    
+        .menu-item {
+        padding: 10px;
+        cursor: pointer;
+        }
+    
+        .sub-menu {
+        display: none;
+        margin-left: 20px;
+        }
+    
+        .active {
+        font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="infbox">
+            <p>drfqffqfqfwqwqfqfqfwqfqwf</p>
+        </div>
+        <div class="sidebar">
+            <input type="text" id="searchBox" placeholder="搜索文章...">
+            <ul id="menu">
+              <li class="menu-item">技术文章
+                <ul class="sub-menu">
+                  <li class="menu-item">前端</li>
+                  <li class="menu-item">后端</li>
+                </ul>
+              </li>
+              <li class="menu-item">设计文章</li>
+              <li class="menu-item">生活感悟</li>
+            </ul>
+          </div>
+          
+          <script src="script.js"></script>
+    </main>
+</body>
+</html>
