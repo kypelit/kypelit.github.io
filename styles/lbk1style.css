@@ -43,6 +43,7 @@ aside{
 }
 .aside_img{
   width: 8vw;
+  margin-bottom: -8vw;
   position: relative;
 }
 
