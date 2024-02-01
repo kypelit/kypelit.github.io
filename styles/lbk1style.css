@@ -42,7 +42,7 @@ aside{
   border-right: rgb(50, 40, 20) solid 1px;
 }
 .aside_img{
-  width: 150px;
+  width: 8vw;
   height: auto;
   margin: 0;
   padding: 0;
@@ -50,13 +50,7 @@ aside{
 
 
 
-footer hr{
-  margin-top: -25px;
-  border-color: rgb(180, 130, 80);
-  width: 80%;
-}
 footer ol{
-  margin-top: -5px;
   list-style-type: none;
   font-size: 12px;
 }
