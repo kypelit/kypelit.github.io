@@ -25,12 +25,12 @@ nav li{
 
 
 
-article{
+main{
   width: 92%;
   height:auto;
-  background-image: url(../assets/bkg_article.png); 
+  background-image: url(../assets/bkg_main.png); 
   background-color: rgb(220, 185, 135);
-  margin: auto;
+  margin: 4% ;
   border: rgb(100, 70, 40) solid 1px;
   box-shadow: 0px 1px 5px #000;
 }
@@ -43,9 +43,7 @@ aside{
 }
 .aside_img{
   width: 8vw;
-  height: auto;
-  margin: 0;
-  padding: 0;
+  position: relative;
 }
 
 
