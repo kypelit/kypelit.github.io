@@ -42,19 +42,15 @@ aside{
   border-right: rgb(50, 40, 20) solid 1px;
 }
 .aside_img{
-  width: 8vw;
+  width: 200px;
   margin-bottom: -8vw;
   position: relative;
 }
 
 
-
-footer ol{
-  list-style-type: none;
-  font-size: 12px;
-}
-footer li{
+footer p{
   text-decoration: underline;
+  font-size: 12px;
   text-align: center;
 }
 
